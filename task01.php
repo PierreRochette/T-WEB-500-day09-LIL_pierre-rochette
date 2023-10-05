@@ -10,7 +10,7 @@ function display_menu() {
 
     $menuHTML = "<ul>"; 
     foreach($menuItems as $itemName => $itemLink) {
-        $menuHTML .= '<li href="' . $itemLink . '">' . $itemName . '</a></li';
+        $menuHTML .= '<li><a href="' . $itemLink . '">' . $itemName . '</a></li>';
     }
     $menuHTML .= '</ul>'; 
     return $menuHTML;
